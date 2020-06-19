@@ -19,9 +19,6 @@ Aparentemente está funcionando bem, se possível revise as libs utilizadas. Tod
 
 
 
-p.s.: Decidi fazer o .sh inteiramente em pt-br para facilitar a utilização, uma vez que o objetivo desse .sh é justamente ser alterado pelo usuário para cada Game :)
-
-
-
-
 Baseado no trabalho de 7oxicshadow (23/09/19) - https://github.com/7oxicshadow/proton-standalone-script e nas postagens de unixuniverse - https://unixuniverse.com.br/winedxvk/usando-winetricks
+
+p.s.: Decidi fazer o .sh inteiramente em pt-br para facilitar a utilização, uma vez que o objetivo desse .sh é justamente ser alterado pelo usuário para cada Game :)
