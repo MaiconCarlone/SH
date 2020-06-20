@@ -17,7 +17,7 @@ Para o exemplo da Epic: Separei os diretórios de Games e Saves da loja da Epic,
 Aparentemente está funcionando bem, se possível revise as libs utilizadas. Toda contribuição é bem vinda!
 
 
-
+NOTA: Em alguns computadores o instalador da Epic Store não instala o Launcher x64. Caso a Epic não inicie, é culpa da variável COMANDO, mude de ~/PL/GARRAFA/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesLauncher.exe para ~/PL/GARRAFA/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
 
 Baseado no trabalho de 7oxicshadow (23/09/19) - https://github.com/7oxicshadow/proton-standalone-script e nas postagens de unixuniverse - https://unixuniverse.com.br/winedxvk/usando-winetricks
 
