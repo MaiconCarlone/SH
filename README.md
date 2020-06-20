@@ -2,7 +2,7 @@ Um script simples que automatiza a instalação e execução de programas feitos
 
 Recomendado para usuários que tem familiaridade com: shell script, bash, wine, winetricks.
 
-A versão atual conta com o instalador da Epic Games Store (www.epicgames.com) como exemplo de utilização. Basicamente o .sh contem duas funções que devem ser customizadas para outros programas PL-INSTRUC e PL-INSTRUC-DESK. 
+A versão atual conta com o instalador da Epic Games Store (www.epicgames.com) como exemplo de utilização. Basicamente o .sh contém duas funções que devem ser customizadas para outros programas PL-INSTRUC e PL-INSTRUC-DESK. 
 
 As instruções de utilização estão nos comentários do script. Para testar o .sh e instalar a  Epic Games Store, basta executar o comando: source PL.sh && PL ou  source PL.sh && PL-GUI (para iniciar a interface simples em Zenity).
 
