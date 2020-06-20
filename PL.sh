@@ -8,7 +8,7 @@
 
 
 #     COMANDO QUE DESEJA EXECUTAR NO PROTON =============================================================================================== ->
-      COMANDO=$(pwd)/GARRAFA/drive_c/Program\ Files\ \(x86\)/Epic\ Games/Launcher/Portal/Binaries/Win64/EpicGamesLauncher.exe                   # Instale ou rode seu game, troque pelo comando que desejar
+      COMANDO=$(pwd)/GARRAFA/drive_c/Program\ Files\ \(x86\)/Epic\ Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe                   # Instale ou rode seu game, troque pelo comando que desejar
       ADICIONAL=" -opengl -SkipBuildPatchPrereq "                                                                                               # Parâmetro adicional para o COMANDO
       GARRAFA="GARRAFA"                                                                                                                         # Nome do prefix      
       export SteamGameId=0                                                                                                                      # Caso queira ativar um fix, informe o ID do game na Steam.
