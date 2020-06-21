@@ -1,4 +1,4 @@
-      #!/bin/bash
+      #!/usr/bin/env bash
       
 #     Criado por Maicon Carlone - maicon.carlone@gmail.com
 #     sh baseado no trabalho de 7oxicshadow (23/09/19) - https://github.com/7oxicshadow/proton-standalone-script e nas postagens de unixuniverse - https://unixuniverse.com.br/winedxvk/usando-winetricks
@@ -8,7 +8,7 @@
 
 
 #     COMANDO QUE DESEJA EXECUTAR NO PROTON =============================================================================================== ->
-      COMANDO=$(pwd)/GARRAFA/drive_c/Program\ Files\ \(x86\)/Epic\ Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe                   # Instale ou rode seu game, troque pelo comando que desejar
+      COMANDO=$(dirname "$(readlink -f "${0}")")/GARRAFA/drive_c/Program\ Files\ \(x86\)/Epic\ Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe   # Instale ou rode seu game, troque pelo comando que desejar
       ADICIONAL=" -opengl -SkipBuildPatchPrereq "                                                                                               # Parâmetro adicional para o COMANDO
       GARRAFA="GARRAFA"                                                                                                                         # Nome do prefix      
       export SteamGameId=0                                                                                                                      # Caso queira ativar um fix, informe o ID do game na Steam.
@@ -16,7 +16,7 @@
 
 
 #     BLOCO DE DEFINIÇÃO DE VARIÁVEIS E CONSTANTES ======================================================================================== ->
-      PLPATH="$(pwd)"                                                                                                                           # PL.sh vai construir a estrutura de diretórios onde o script estiver
+      PLPATH="$(dirname "$(readlink -f "${0}")")"                                                                                                                           # PL.sh vai construir a estrutura de diretórios onde o script estiver
       PLPROTONGE="$PLPATH"/PROTONGE                                                                                                             # Diretório do Proton-GE
       PLPROTONGEBIN="$PLPROTONGE"/proton                                                                                                        # Executável do Proton-Ge
       PROTONGELINK="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/5.9-GE-2-MF/Proton-5.9-GE-2-MF.tar.gz"                # Mudar essa linha para alterar a versão do Proton-GE
