@@ -1,3 +1,5 @@
+# PL.sh
+
 Um script simples que automatiza a instalação e execução de programas feitos para Windows (focado em games que não estão disponíveis na Steam), utilizando a versão mais recente do Proton-GE (https://github.com/GloriousEggroll/proton-ge-custom).
 
 A versão atual conta com o instalador da **Epic Games Store** (www.epicgames.com) como exemplo de utilização. Basicamente o .sh contém duas funções que devem ser customizadas para outros programas PL-INSTRUC e PL-INSTRUC-DESK. 
